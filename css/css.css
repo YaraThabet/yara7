@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .m
+  header{
+   height:100%;
+  }
+ #navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;/**/
+    background-color: rgb(237, 143, 209);
+ }
+   ul{
+    list-style: none;
+    align-items: center;/**/
+ }
+ img{
+    width: 90px;
+    margin-left: 60px;
+ }
+ a{
+    text-decoration: none;
+ }
+  #navbar ul{
+    display: flex;
+    margin-right:60px;/* جربيها وشوفي ايش رح اصير */
+  }
+  #navbar ul li a{
+    padding: 20px;
+    color:rgb(242, 237, 242);
+    font-weight: 900 ;/**/
+  }
+  #navbar ul li a:hover{
+    border-bottom: 4px solid #f7d961;/**/
+  }
+header.paragraph{
+   height: 80%;
+   background-color:rgb(193, 239, 239);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+  }
+
+
+  
+  
